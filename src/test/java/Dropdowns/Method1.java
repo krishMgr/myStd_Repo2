@@ -27,12 +27,13 @@ public class Method1 {
 		 System.out.println("******************************************");
 		 for(WebElement opt:options) {
 			 
-			/* if(opt.getText().equals("Apple")) {
+			 if(opt.getText().equals("Apple")) {
 				opt.click();
 				break;
 				 
-			 } */
+			 } 
 			 System.out.println(opt.getText());
+			 System.out.println("**************************************************");
 		 }
 		 
 		 driver.close();
